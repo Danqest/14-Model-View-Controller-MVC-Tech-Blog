@@ -7,10 +7,10 @@
       <p class="card-text">
         {{blog.content}}
       </p>
-      <a href="/blogs/{{id}}" class="btn btn-primary">Go somewhere</a>
+      <a href="/blogs/{{id}}" class="btn btn-primary">View Full Blog</a>
     </div>
     <div class="card-footer text-muted">
-      Posted by {{blog.author}} on {{blog.date}}
+      Posted by {{blog.user.username}} on {{blog.createdAt}}
     </div>
   </div>
 </div>
